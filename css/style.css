@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol {
+    list-style-type: none;
+}
+
+
+/*=========== Navbar CSS ===========*/
+.navbar-nav .nav-link{
+    color: #181818;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    padding: 25px !important;
+    transition: all linear .3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #5956E8 ;
+}
+.contact_btn a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    background-color: #5956E8;
+    padding:13px 24px;
+    border-radius: 10px;
+}
+.navbar {
+    padding-top: 35px;
+    padding-bottom: 34px;
+}
+
+
+/*=========== banner CSS ===========*/
+#banner{
+    background-color: #5956E8;
+    padding: 182px 0;
+}
+.banner-left h1 {
+    color: #FFFFFF;
+    font-size: 65px;
+    line-height: 80px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 25px;
+}
+.banner-left p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding-right: 15px;
+    padding-bottom: 43px;
+}
+.banner-left a {
+    background-color: #FFFFFF;
+    padding: 13px 22px;
+    color: #5956E8;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+}
+
+
+/*=========== service CSS ===========*/
+#service{
+    padding: 100px 0;
+}
+.head{
+    padding-bottom: 50px;
+}
+.head h2{
+    font-size: 40px;
+    color: #181818;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+.head p{
+    font-size: 16px;
+    color: rgba(24, 24, 24, 0.7);
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 27px;
+    padding: 0 2px;
+}
+.service-item {
+  border: 1px solid #e3e3e3;
+  padding: 63px 48px;
+  border-radius: 10px;
+  transition: all linear 0.3s;
+}
+.service-item h3 {
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  color: #181818;
+  font-weight: 700;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+.service-item p {
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: rgba(24, 24, 24, 0.7);
+}
+.service-item .icon {
+  border: 1px solid #5956e8;
+  width: 71px;
+  height: 71px;
+  text-align: center;
+  line-height: 65px;
+  border-radius: 10px;
+  transition: all linear 0.3s;
+}
+.service-item:hover .icon {
+  background-color: #5956e8;
+}
+.service-item:hover .icon path {
+  fill: #fff;
+}
+.service-item:hover {
+  box-shadow: 0 6px 35px rgba(0, 0, 0, 0.08) !important;
+  border: transparent;
+}
+.service_main {
+  row-gap: 24px !important;
+}
+
+
+/*=========== portfolio CSS ===========*/
+#portfolio{
+  padding-bottom: 100px;
+}
+.port-item {
+  overflow: hidden;
+}
+.port-item img{
+  border-radius: 10px;
+}
+.port-overlay{
+  width: 86%;
+  background-color: #5956E8;
+  bottom: -130px;
+  left:50%;
+  transform: translateX(-50%);
+  padding: 25px 0;
+  border-radius: 10px;
+  transition: all linear .3s;
+}
+.port-overlay h3{
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 10px;
+}
+.port-overlay a{
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "Inter", sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+.port-overlay a i {
+  margin-left: 10px;
+}
+.port-item:hover .port-overlay{
+  bottom: 20px;
+}
+.row_gap24{
+  row-gap: 24px;
+}
+
+
+/*=========== team CSS ===========*/
+#team{
+  padding-bottom: 142px;
+}
+.team-item{
+  border-radius: 10px;
+  position: relative;
+}
+.team-item img{
+  border-radius: 10px;
+}
+.team-item::after{
+  position:absolute;
+  content:'';
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background: linear-gradient(0deg, #5956E8 -1.13%, rgba(255, 255, 255, 0) 58.11%);
+  border-radius: 10px;
+}
+.team-overlay{
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 1;
+}
+.team-overlay h3{
+  color: #fff;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.team-overlay p{
+  color: #fff;
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+/*=========== Navbar CSS ===========*/
+#feedback {
+  padding-bottom: 142px;
+}
+#feedback .head p {
+  padding-right: 93px !important;
+}
+.feed-item {
+  border-radius: 10px;
+  padding: 48px;
+  box-shadow: 0 6px 35px rgba(0, 0, 0, 0.08) !important;
+}
+.feed-img {
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border: 1px solid transparent;
+}
+.star i {
+  color: #fbbf25;
+}
+.feed-item p {
+  color: rgba(24, 24, 24, 0.7);
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+.left h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #181818;
+  font-family: "Inter", sans-serif;
+}
+.left h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #5d5d5d;
+  font-family: "Inter", sans-serif;
+}
+.feed-item:hover .feed-img {
+  border-color: #000;
+}
+
+
+/*=========== blog CSS ===========*/
+#blog {
+  padding-bottom: 100px;
+}
+.blog-item {
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 17px 19px 46px 19px;
+}
+.blog-item img {
+  border-radius: 10px;
+}
+.dates {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding-top: 19px;
+}
+.dates svg {
+  margin-right: 10px;
+}
+.txt {
+  padding: 0 16px;
+}
+.txt h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #181818;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.txt p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5d5d5d;
+  font-family: "Inter", sans-serif;
+  line-height: 27px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.txt a {
+  color: #5956e8;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+/*=========== Navbar CSS ===========*/
+/*=========== Navbar CSS ===========*/
+/*=========== Navbar CSS ===========*/
+/*=========== Navbar CSS ===========*/
+/*=========== Navbar CSS ===========*/
+/*=========== Navbar CSS ===========*/
+/*=========== Navbar CSS ===========*/
+/*=========== Navbar CSS ===========*/
+/*=========== Navbar CSS ===========*/
